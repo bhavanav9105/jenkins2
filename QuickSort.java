@@ -15,7 +15,7 @@ class Quicksort {
 
         i++;
 
-        
+        int temp=array[i];
         array[i] = array[j];
         array[j] = temp;
       }
@@ -59,3 +59,4 @@ class Quicksort {
   }
 
 }
+
