@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-class Quicksort {
+public class Quicksort {
 
   
   static int partition(int array[], int low, int high) {
@@ -51,7 +51,7 @@ class Quicksort {
 
     int size = data.length;
 
-    // call quicksort() on array data
+    
     quickSort(data, 0, size - 1);
 
     System.out.println("Sorted Array in Ascending Order ");
@@ -59,4 +59,5 @@ class Quicksort {
   }
 
 }
+
 
