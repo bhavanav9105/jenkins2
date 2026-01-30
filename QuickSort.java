@@ -21,7 +21,7 @@ class Quicksort {
       }
 
     }
-i
+
     int temp = array[i + 1];
     array[i + 1] = array[high];
     array[high] = temp;
@@ -57,4 +57,5 @@ i
     System.out.println("Sorted Array in Ascending Order ");
     System.out.println(Arrays.toString(data));
   }
+
 }
